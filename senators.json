@@ -1,0 +1,355 @@
+{
+  "description": "U.S. State senators contact information",
+  "senators": [
+  {
+  "state": "Alabama ",
+  "senator": "Sen. Jeff Sessions (R)",
+  "address": "326 Russell Senate Office Building",
+  "number": "(202) 224-4124; 224-3149",
+  "city": "Montgomery: (334) 244-7017"
+   },
+   {
+   "state": "Alaska",
+   "senator": "Sen. Lisa Murkowski (R)",
+   "address": "709 Hart Senate Office Building",
+   "number": "(202) 224-6665; 224-5301",
+   "city": "Anchorage: (907) 271-3735"
+   },
+   {
+   "state": "Arizona",
+   "senator": "Sen. John McCain (R)",
+   "address": "241 Russel Senate Office Building",
+   "number": "(202) 224-2235; 228-2862",
+   "city": "Phoenix: (602) 952-2410"
+   },
+   {
+   "state": "Arkansas",
+   "senator": "Sen. Mark Pryor (D)",
+   "address": "255 Dirksen Senate Office Building",
+   "number": "(202) 224-2353; 228-0908",
+	"city": "Little Rock: (501) 324-6336"
+	},
+	{
+   "state": "California",
+   "senator": "Sen. Dianne Feinstein (D)",
+   "address": "331 Hart Senate Office Building",
+	"number": "(202) 224-3841; 228-3954",
+   "city": "San Francisco: (415) 393-0707"
+   },
+   {
+   "state": "Colorado",
+   "senator": "Sen. Mark Udall (D)",
+   "address": "317 Hart Senate Office Building",
+   "number": "(202) 224-5941; 224-6471",
+   "city": "Denver: (303) 650-7820"
+   },
+   {
+   "state": "Connecticut",
+   "senator": "Sen. Richard Blumenthal (D)",
+   "address": "702 Hart Senate Office Building",
+   "number": "(202) 224-2823; 224-1083",
+   "city": "Hartford: (860) 258-6940"
+   },
+   {
+   "state": "Delaware",
+   "senator": "Sen. Thomas Carper (D)",
+   "address": "513 Hart Senate Office Building",
+   "number": "(202) 224-2441; 228-2190",
+   "city": "Dover: (302) 674-3308"
+   },
+   {
+	"state": "Florida",
+    "senator": "Sen. Marco Rubio (R)",
+    "address": "317 Hart Senate Office Building",
+    "number": "(202) 224-3041; 228-5171",
+    "city": "Orlando: (407) 254-2573"
+    },
+    {
+    "state": "Georgia",
+    "senator": "Sen. Saxby Chambliss (R)",
+    "address": "416 Russell Senate Office Building",
+    "number": "(202) 224-3521; 224-0103",
+    "city": "Atlanta: (770) 763-9090"
+    },
+    {
+   "state": "Hawaii",
+   "senator": "Sen. Brian Schatz (D) **",
+   "address": "G-11 Dirksen Senate Office Building",
+   "number": "(202) 224-3934; 224-6747",
+   "city": "Honolulu: (808) 541-2542"
+   },
+   {
+    "state":"Idaho",
+    "senator": "Sen. Michael Crapo (R)",
+    "address": "239 Dirksen Senate Office Building",
+    "number": "(202) 224-6142; 228-1375",
+    "city": "Boise: (208) 334-1776"
+    },
+    {
+    "state": "Illinois",
+    "senator": "Sen. Dick Durbin (D)",
+    "address": "711 Hart Senate Office Building",
+    "number": "(202) 224-2152; 228-0400",
+    "city": "Chicago: (312) 353-4952"
+    },
+    {
+    "state": "Indiana",
+    "senator": "Sen. Dan Coats (R)",
+    "address": "493 Russell Senate Office Building",
+    "number": "(202) 224-5623; 228-1820",
+    "city": "Indianapolis: (317) 554-0750 "
+    },
+    {
+    "state": "Iowa",
+    "senator": "Sen. Charles Grassley (R)",
+    "address": "135 Hart Senate Office Building",
+    "number": "(202) 224-3744; 224-6020",
+    "city": "Des Moines: (515) 288-1145"
+    },
+    {
+    "state": "Kansas",
+    "senator": "Sen. Pat Roberts (R)",
+    "address": "109 Hart Senate Office Building",
+    "number": "(202) 224-4774; 224-3514",
+    "city": "Overland Park: (913) 451-9343"
+    },
+    {
+    "state": "Kentucky",
+    "senator": "Sen. Mitch McConnell (R)",
+    "address": "361A Russell Senate Office Building",
+    "number": "(202) 224-2541; 224-2499",
+    "city": "Louisville: (502) 582-6304"
+    },
+    {
+    "state": "Louisiana",
+    "senator": "Sen. Mary Landrieu (D)",
+    "address": "431 Dirksen Senate Office Building",
+    "number": "(202) 224-5824; 224-9735",
+    "city": "New Orleans: (504) 589-2427"
+    },
+    {
+    "state": "Maine",
+    "senator": "Sen. Susan Collins (R)",
+    "address": "413 Dirksen Senate Office Building",
+    "number": "(202) 224-2523; 224-2693",
+    "city": "Bangor: (207) 945-0417"
+    },
+    {
+    "state": "Maryland",
+    "senator": "Sen. Barbara Mikulski (D)",
+    "address": "503 Hart Senate Office Building",
+    "number": "(202) 224-4654; 224-8858",
+    "city": "Baltimore: (410) 962-4510"
+    },
+    {
+    "state": "Massachusetts",
+    "senator": "Sen. Elizabeth Warren (D) **",
+    "address": "SR-C2 Russell Senate Office Building",
+    "number": "(202) 224-4543; 228-2646",
+    "city": "Boston: (617) 565-3170"
+    },
+    {
+    "state": "Michigan",
+    "senator": "Sen. Carl Levin (D)",
+    "address": "269 Russell Senate Office Building",
+    "number": "(202) 224-6221; 224-1388",
+    "city": "Detroit: (313) 226-6020"
+    },
+    {
+    "state": "Minnesota",
+    "senator": "Sen. Amy Klobuchar (D)",
+    "address": "302 Hart Senate Office Building",
+    "number": "(202) 224-3244; 228-2186",
+    "city": "Minneapolis: (612) 727-5220"
+    },
+    {
+    "state": "Mississippi",
+    "senator": "Sen. Thad Cochran (R)",
+    "address": "113 Dirksen Senate Office Building",
+    "number": "(202) 224-5054; 224-9450",
+    "city": "Jackson: (601) 965-4649"
+    },
+    {
+    "state": "Missouri  ",
+    "senator": "Sen. Claire McCaskill (D)",
+    "address": "506 Hart Senate Office Building",
+    "number": "(202) 224-6154; 228-6326",
+    "city": "Kansas City: (816) 421-1639"
+    },
+    {
+    "state": "Montana",
+    "senator": "Sen. Max Baucus (D)",
+    "address": "511 Hart Senate Office Building",
+    "number": "(202) 224-2651; 224-9412",
+    "city": "Billings: (406) 657-6790"
+    },
+    {
+    "state": "Nebraska",
+    "senator": "Sen. Mike Johanns (R)",
+    "address": "404 Russell Senate Office Building",
+    "number": "(202) 224-4224; 228-0436",
+    "city": "Omaha: (402) 758-8981"
+    },
+    {
+    "state": "Nevada",
+    "senator": "Sen. Harry Reid (D)",
+    "address": "522 Hart Senate Office Building",
+    "number": "(202) 224-3542; 224-7327",
+    "city": "Las Vegas: (702) 388-5020"
+    },
+    {
+    "state": "New Hampshire",
+    "senator": "Sen. Kelly Ayotte (R)",
+    "address": "144 Russell Senate Office Building",
+    "number": "(202) 224-3324; 224-4952",
+    "city": "Manchester: (603) 622-7979 "
+    },
+    {
+    "state": "New Jersey",
+    "senator": "Sen. Robert Menendez (D)",
+    "address": "528 Hart Senate Office Building",
+    "number": "(202) 224-4744; 228-2197",
+    "city": "Newark: (973) 645-3030"
+    },
+    {
+    "state": "New Mexico",
+    "senator": "Sen. Thomas Udall (D)",
+    "address": "110 Hart Senate Office Building",
+    "number": "(202) 224-6621; 228-3261",
+    "city": "Albuquerque: (505) 346-6791"
+    },
+    {
+    "state": "New York",
+    "senator": "Sen. Chuck Schumer (D)",
+    "address": "322 Hart Senate Office Building",
+    "number": "(202) 224-6542; 228-3027",
+    "city": "New York: (212) 486-4430"
+     },
+    {
+    "state": "North Carolina",
+    "senator": "Sen. Richard Burr (R)",
+    "address": "217 Russell Senate Office Building",
+    "number": "(202) 224-3154; 228-2981",
+    "city": "Winston-Salem: (800) 685-8916 "
+    },
+    {
+    "state": "North Dakota",
+    "senator": "Sen. John Hoeven (R)",
+    "address": "120 Russell Senate Office Building",
+    "number": "(202) 224-2551; 224-7999",
+    "city": "Bismarck: (701) 250-4618"
+    },
+    {
+    "state": "Ohio",
+    "senator": "Sen. Sherrod Brown (D)",
+    "address": "713 Hart Senate Office Building",
+    "number": "(202) 224-2315; 228-6321",
+    "city": "Cleveland: (216) 522-7272"
+     },
+    {
+    "state": "Oklahoma",
+    "senator": "Sen. James Inhofe (R)",
+    "address": "205 Russell Senate Office Building",
+    "number": "(202) 224-4721; 228-0380",
+    "city": "Tulsa: (918) 748-5111"
+     },
+    {
+    "state": "Oregon",
+    "senator": "Sen. Ron Wyden (D)",
+    "address": "223 Dirksen Senate Office Building",
+    "number": "(202) 224-5244; 228-2717",
+    "city": "Portland: (503) 326-7525"
+      },
+      {
+    "state": "Pennsylvania",
+    "senator": "Sen. Pat Toomey (R)",
+    "address": "502 Hart Senate Office Building",
+    "number": "(202) 224-4254; 228-0284",
+    "city": "Philadelphia: (215) 241-1090"
+    },
+    {
+    "state": "Rhode Island ",
+    "senator": "Sen. Jack Reed (D)",
+    "address": "728 Hart Senate Office Building",
+    "number": "(202) 224-4642; 224-4680",
+    "city": "Cranston: (401) 943-3100"
+      },
+      {
+    "state": "South Carolina",
+    "senator": "Sen. Lindsey Graham (R)",
+    "address": "290 Russell Senate Office Building",
+    "number": "(202) 224-5972; 224-3808",
+    "city": "Greenville: (864) 250-1417"
+      },
+      {
+    "state": "South Dakota ",
+    "senator": "Sen. Tim Johnson (D)",
+    "address": "136 Hart Senate Office Building",
+    "number": "(202) 224-5842; 228-5765",
+    "city": "Sioux Falls: (605) 332-8896"
+       },
+       {
+    "state": "Tennessee  ",
+    "senator": "Sen. Lamar Alexander (R)",
+    "address": "455 Dirksen Senate Office Building",
+    "number": "(202) 224-4944 ; 228-3398",
+    "city": "Nashville: (615) 736-5129"
+    },
+    {
+    "state": "Texas",
+    "senator": "Sen. Ted Cruz (R)",
+    "address": "B40B Dirksen Senate Office Building",
+    "number": "(202) 224-5922: 224-0776",
+    "city": "Austin: (512) 916-5834"
+    },
+    {
+    "state": "Utah",
+    "senator": "Sen. Mike Lee (R)",
+    "address": "316 Hart Senate Office Building",
+    "number": "(202) 224-5444; 228-1168",
+    "city": "Salt Lake City: (801) 524-5933"
+    },
+    {
+    "state": "Vermont",
+    "senator": "Sen. Bernard Sanders (I)",
+    "address": "332 Dirksen Senate Office Building",
+    "number": "(202) 224-5141; 228-0776",
+    "city": "Burlington: (800) 339-9834"
+    },
+    {
+    "state": "Virginia",
+    "senator": "Sen. Mark Warner (D)",
+    "address": "459A Russell Senate Office Building",
+    "number": "(202) 224-2023; 224-6295",
+    "city": "Vienna: (703) 442-0670"
+    },
+    {
+    "state": "Washington",
+    "senator": "Sen. Patty Murray (D)",
+    "address": "448 Russell Senate Office Building",
+    "number": "(202) 224-2621; 224-0238",
+    "city": "Seattle: (206) 553-5545"
+    },
+    {
+    "state": "West Virginia",
+    "senator": "Sen. John Rockefeller, IV (D)",
+    "address": "531 Hart Senate Office Building",
+    "number": "(202) 224-6472; 224-7665",
+    "city": "Charleston: (304) 347-5372"
+    },
+    {
+    "state": "Wisconsin",
+    "senator": "Sen. Ron Johnson (R)",
+    "address": "386 Russell Senate Office Building",
+    "number": "(202) 224-5323; 228-6965",
+    "city": "Milwaukee: (414) 276-7282"
+    },
+    {
+    "state": "Wyoming",
+    "senator": "Sen. Michael Enzi (R)",
+    "address": "379A Russell Senate Office Building",
+    "number": "(202) 224-3424; 228-0359",
+    "city": "Gillette: (307) 682-6268"
+    }
+]
+}
