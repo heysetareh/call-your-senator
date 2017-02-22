@@ -4,9 +4,15 @@ var senatorsData = JSON.parse(senatorsFileData);
 var senatorsData = JSON.parse(fs.readFileSync("senators.json"));
 var senators = senatorsData["senators"];
 
+// convert senators into a thing that looks like
+// { "state_name": {...}, "state_name": {...}, etc} containing the senator data
+var states = {};
+for (i = 0; i<senators.length; i++) {
+  var sen_data=senators[i];
+  states[sen_data['state'].toLowerCase()] = sen_data;
+}
 
 var twitterAPI = require('node-twitter-api');
-var RiTa = require('rita').RiTa;
 
 var consumerKey = process.argv[2];
 var consumerSecret = process.argv[3];
@@ -21,52 +27,55 @@ var twitter = new twitterAPI({
 twitter.getStream("user", {}, accessToken, tokenSecret, onData);
 
 function onData(error, streamEvent) {
-    if (streamEvent.hasOwnProperty('direct_message')) {
-        var dmText = streamEvent['direct_message']['text'];
-        var senderName = streamEvent['direct_message']['sender']['screen_name'];
-        // streaming API sends us our own direct messages! skip if we're
-        // the sender.
-        if (senderName == myScreenName) {
-            return;
-        }
-        var outgoingText;
-        var noun = getRandomNoun(dmText);
-        if (noun) {
-            outgoingText = "I love talking about " + noun + ". ";
-            var anotherNoun = getRandomNoun(dmText);
-            outgoingText += "what else is there to know about " + anotherNoun + "?";
-        }
-        else {
-            outgoingText = "wow for real?";
-        }
-        // send a response!
-        twitter.direct_messages(
-            'new',
-            {
-                "screen_name": senderName,
-                "text": outgoingText
-            },
-            accessToken,
-            tokenSecret,
-            function (err, data, resp) { console.log(err); }
-        );
-    }
-}
 
-function getRandomNoun(text) {
-    var tagged = RiTa.getPosTagsInline(text);
-    var taggedWords = tagged.split(" ");
-    var nouns = [];
-    for (var i = 0; i < taggedWords.length; i++) {
-        var parts = taggedWords[i].split("/");
-        if (parts[1] == 'nn' || parts[1] == 'nns') {
-            nouns.push(parts[0]);
+    // a few different cases.
+    // case 1: if the object is empty, simply return
+    if (Object.keys(streamEvent).length === 0) {
+        return;
+    }
+
+   
+
+    // otherwise, this was probably an incoming tweet. we'll check to see if
+    // it starts with the handle of the bot and then send a response.
+    else if (streamEvent.hasOwnProperty('text')) {
+        if (streamEvent['text'].startsWith("@"+myScreenName+" ")) {
+          var tweet = streamEvent['text'];
+
+          var the_state = null;
+          for (var state_name in states) {
+            // look for `state_name` inside the tweet text (streamEvent['text'])
+            if (tweet.toLowerCase().includes(state_name)) {
+              the_state = state_name;
+            }
+          }
+
+          var reply = "";
+          if (the_state != null) {
+            // we got a state, here is the senator data from senators.json
+            var senator_data = states[the_state];
+            reply = senator_data['senator'] + "\n" + senator_data['address'] + "\n" + senator_data['number'] + "\n" + senator_data['city'];
+          } else {
+            // we didn't get a state, tweet back something else
+            reply = "hey, tweet with a state name";
+          }
+
+
+            var tweetId = streamEvent['id_str'];
+            var tweeterHandle = streamEvent['user']['screen_name'];
+            twitter.statuses(
+                "update",
+               {"status": "@" + tweeterHandle + " " + reply,
+                "in_reply_to_status_id": tweetId},
+               accessToken,
+               tokenSecret,
+               function (err, data, resp) { console.log(err); }
+            );
         }
     }
-    if (nouns.length > 0) {
-        return nouns[Math.floor(Math.random()*nouns.length)];
-    }
+
+    // if none of the previous checks have succeeded, just log the event
     else {
-        return "";
+        console.log(streamEvent);
     }
 }

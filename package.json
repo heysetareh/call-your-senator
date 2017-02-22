@@ -1,17 +1,16 @@
+
 {
-  "name": "callyoursenator",
+  "name": "user_stream_responder",
   "version": "1.0.0",
+  "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "CC0",
   "dependencies": {
-    "node-twitter-api": "^1.8.0",
-    "rita": "^1.1.51"
-  },
-  "devDependencies": {},
-  "description": ""
+    "node-twitter-api": "^1.8.0"
+  }
 }

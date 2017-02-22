@@ -2,7 +2,7 @@
   "description": "U.S. State senators contact information",
   "senators": [
   {
-  "state": "Alabama ",
+  "state": "Alabama",
   "senator": "Sen. Jeff Sessions (R)",
   "address": "326 Russell Senate Office Building",
   "number": "(202) 224-4124; 224-3149",
@@ -170,7 +170,7 @@
     "city": "Jackson: (601) 965-4649"
     },
     {
-    "state": "Missouri  ",
+    "state": "Missouri",
     "senator": "Sen. Claire McCaskill (D)",
     "address": "506 Hart Senate Office Building",
     "number": "(202) 224-6154; 228-6326",
@@ -268,7 +268,7 @@
     "city": "Philadelphia: (215) 241-1090"
     },
     {
-    "state": "Rhode Island ",
+    "state": "Rhode Island",
     "senator": "Sen. Jack Reed (D)",
     "address": "728 Hart Senate Office Building",
     "number": "(202) 224-4642; 224-4680",
@@ -282,14 +282,14 @@
     "city": "Greenville: (864) 250-1417"
       },
       {
-    "state": "South Dakota ",
+    "state": "South Dakota",
     "senator": "Sen. Tim Johnson (D)",
     "address": "136 Hart Senate Office Building",
     "number": "(202) 224-5842; 228-5765",
     "city": "Sioux Falls: (605) 332-8896"
        },
        {
-    "state": "Tennessee  ",
+    "state": "Tennessee",
     "senator": "Sen. Lamar Alexander (R)",
     "address": "455 Dirksen Senate Office Building",
     "number": "(202) 224-4944 ; 228-3398",
